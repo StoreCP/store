@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <title>Select Amount — USDT</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #121d30;
+      --panel-2: #17243a;
+      --text: #f4f7fb;
+      --muted: #9eacc1;
+      --accent: #f0b90b;
+      --accent-hover: #ffd34d;
+      --border: rgba(255,255,255,.09);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 36px 18px;
+      background: radial-gradient(ellipse at top, #1b2a42 0%, var(--bg) 58%);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .container { width: min(980px, 100%); margin: 0 auto; }
+    header { text-align: center; margin-bottom: 30px; }
+    .badge {
+      display: inline-block; padding: 7px 12px; border: 1px solid rgba(240,185,11,.35);
+      border-radius: 999px; color: var(--accent); font-size: 12px; letter-spacing: 1.3px;
+      text-transform: uppercase; font-weight: 700;
+    }
+    h1 { margin: 16px 0 9px; font-size: clamp(27px, 5vw, 42px); }
+    .subtitle { color: var(--muted); margin: 0; line-height: 1.5; }
+    .grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: linear-gradient(145deg, var(--panel-2), var(--panel));
+      border: 1px solid var(--border); border-radius: 15px; padding: 19px;
+      display: flex; flex-direction: column; gap: 15px; transition: .2s ease;
+    }
+    .card:hover { transform: translateY(-3px); border-color: rgba(240,185,11,.5); }
+    .amount { font-size: 25px; font-weight: 800; }
+    .amount span { color: var(--accent); font-size: 14px; margin-left: 3px; }
+    .button {
+      display: block; text-align: center; text-decoration: none; color: #171717;
+      background: var(--accent); padding: 11px 12px; border-radius: 9px;
+      font-weight: 800; font-size: 14px; transition: background .2s ease;
+    }
+    .button:hover { background: var(--accent-hover); }
+    footer {
+      text-align: center; color: var(--muted); font-size: 12px;
+      margin: 26px auto 0; line-height: 1.6;
+    }
+    @media (max-width: 420px) {
+      body { padding: 27px 13px; }
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+      .card { padding: 15px; }
+      .amount { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <span class="badge">Digital Gift Cards</span>
+      <h1>Select an Amount in USDT</h1>
+      <p class="subtitle">Choose your preferred amount to open its corresponding purchase page.</p>
+    </header>
+
+    <section class="grid" aria-label="Available amounts">
+      <article class="card"><div class="amount">10 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-10-usdt-key-i10000301475008?suid=0d7fc8d9-e36a-4ab9-ac73-19a19c729d48" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">15 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-15-usdt-key-i10000301475013?suid=c3c725c1-73fa-456a-8ebf-dd288576dfc0" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">20 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-20-usdt-key-i10000301475012?suid=3f5d135c-07e8-4da3-bf0b-1e9425b34bde" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">25 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-25-usdt-key-i10000301475003?suid=41d752c8-ad37-43cf-bc94-42731422c71e" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">30 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-30-usdt-key-i10000301475007?suid=da188b03-8a0d-4d0d-99a7-ca645da04555" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">35 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-35-usdt-key-i10000337768552?suid=b24d172d-4848-4a4b-aa40-40c6807018d1" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">40 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-40-usdt-key-i10000301475065?suid=d90bdbe4-ff03-47ba-a7c9-c0a09232513b" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">45 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-455-usdt-key-i10000337768226?suid=aa9f28a6-fb00-4441-b94e-a092d325c13e" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">50 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-50-usdt-key-i10000301475002?suid=3320819f-3ba8-4cff-a9bf-46ea05f8679a" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">55 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-55-usdt-key-i10000301475128?suid=d1d9f249-2449-4512-ba98-3e01fbd91548" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">60 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-60-usdt-key-i10000301475064?suid=0c42e444-cd3a-4eda-8175-67516c00e591" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">65 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-65-usdt-key-i10000337768555?suid=1993e7ce-d157-4eb1-8e2f-470824750e4c" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">70 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-70-usdt-key-i10000301475063?suid=7a39939a-4fd8-40ab-89f2-c426e09ba6d7" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">75 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-75-usdt-key-i10000301475016?suid=ad88b3dc-7839-407f-a317-ad2c1733fab8" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">80 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-80-usdt-key-i10000301475062?suid=fb5ff259-31ea-4bda-8d2d-d500432dc969" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">85 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-85-usdt-key-i10000337768554?suid=a538b10f-abe5-4398-9625-fb70998a4b4b" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">90 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-90-usdt-key-i10000301475061?suid=104a54f0-d8c4-4bc3-8625-83d6f76dd7d7" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">95 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-95-usdt-key-i10000337768553?suid=6af79c89-e88d-43d8-8519-835191bf082c" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">100 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-100-usdt-key-i10000301475001" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+      <article class="card"><div class="amount">150 <span>USDT</span></div><a class="button" href="https://www.g2a.com/binance-gift-card-150-usdt-key-i10000301475015?suid=8a81c393-089a-4835-9095-37284eaddb57" target="_blank" rel="noopener noreferrer">Open Link</a></article>
+    </section>
+
+    <footer>The amounts shown represent the options provided. Please confirm the product, final price, and terms on the destination page before purchasing.</footer>
+  </main>
+</body>
+</html>
